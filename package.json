@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/pcktbot/queue-tester/issues"
   },
-  "homepage": "https://github.com/pcktbot/queue-tester#readme"
+  "homepage": "https://github.com/pcktbot/queue-tester#readme",
+  "dependencies": {
+    "bee-queue": "^1.4.0",
+    "bull-arena": "^3.30.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
 }
