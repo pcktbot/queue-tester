@@ -2,9 +2,10 @@
   "name": "queue-tester",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js --watch"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
   "dependencies": {
     "bee-queue": "^1.4.0",
     "bull-arena": "^3.30.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
